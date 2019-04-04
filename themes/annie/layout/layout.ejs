@@ -1,0 +1,23 @@
+<% if(page.type === "gallery") { %>
+
+	<!--gallery-->
+	<%- partial('gallery') %>
+
+<% } else { %>
+	<!DOCTYPE html>
+	<html class="scrollbar">
+		<%- partial('_partial/head',{cache: true}) %>
+	<body>
+		<%- partial('_partial/header',{cache: true}) %>
+		
+		<!--main-->
+		<main>
+			<%- body %>
+		</main>
+		
+		<!--footer-->
+		<%- partial('_partial/footer',{cache: true}) %>
+		<%- partial('_partial/footer-after',{cache: true}) %>
+	</body>
+	</html>
+<% } %>
