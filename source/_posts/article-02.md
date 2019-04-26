@@ -3,6 +3,7 @@ title: 清明踏青
 date: 2019-04-05 19:00:46
 cover: /img/wutongshan.jpg
 tags: 旅游 随笔
+categories: 生活
 ---
 <blockquote>清明</blockquote>
 　　清明时节雨纷纷，路上行人欲断魂。
